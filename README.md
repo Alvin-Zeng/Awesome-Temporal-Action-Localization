@@ -24,7 +24,7 @@ A curated list of temporal action localization/detection and related area (e.g. 
 ### <span id = "111">2019</span>
 
 - <span id = "2195">[[PGCN]](#1195)</span> [**Graph Convolutional Networks for Temporal Action Localization**](http://openaccess.thecvf.com/content_ICCV_2019/papers/Zeng_Graph_Convolutional_Networks_for_Temporal_Action_Localization_ICCV_2019_paper.pdf) - Runhao Zeng et al, `ICCV 2019`. [[code]](<https://github.com/Alvin-Zeng/PGCN>)
-- <span id = "2196">[[RAM]](#1196)</span> [**Graph Convolutional Networks for Temporal Action Localization**](https://ieeexplore.ieee.org/document/8933113) - Peihao Chen et al, `TMM`. 
+- <span id = "2196">[[RAM]](#1196)</span> [**Graph Convolutional Networks for Temporal Action Localization**](https://ieeexplore.ieee.org/document/8933113) - Peihao Chen et al, `TMM 2019`. 
 - <span id = "2194">[[BMN]](#1194)</span> [**BMN: Boundary-Matching Network for Temporal Action Proposal Generation**](http://openaccess.thecvf.com/content_ICCV_2019/papers/Lin_BMN_Boundary-Matching_Network_for_Temporal_Action_Proposal_Generation_ICCV_2019_paper.pdf) - Tianwei Lin et al, `ICCV 2019`.
 - <span id = "2193">[[GTAN]](#1193)</span> [**Gaussian Temporal Awareness Networks for Action Localization**](https://arxiv.org/abs/1909.03877) - Fuchen Long et al, `CVPR 2019`.
 - <span id = "2192">[[DBS]](#1192)</span> [**Video Imprint Segmentation for Temporal Action Detection in Untrimmed Videos**](https://www.aaai.org/ojs/index.php/AAAI/article/view/4846) - Zhanning Gao et al, `AAAI 2019`.
@@ -81,7 +81,7 @@ A curated list of temporal action localization/detection and related area (e.g. 
 | <span id = "1175">[R-C3D](#2175)</span>         |   ICCV-2017   |    54.5     |    51.5     |    44.8     |    35.6     |    28.9     |      -      |      -      |
 | <span id = "1176">[TCN](#2176)</span>           |   ICCV-2017   |      -      |      -      |      -      |    33.3     |    25.6     |    15.9     |     9.0     |
 | <span id = "1177">[TURN](#2177)</span>          |   ICCV-2017   |    54.0     |    50.9     |    44.1     |    34.9     |    25.6     |      -      |      -      |
-| <span id = "1178">[SST](#2178)</span>           |   ICCV-2017   |    37.8?    |      -      |      -      |      -      |    23.0     |      -      |      -      |
+| <span id = "1178">[SST](#2178)</span>           |   ICCV-2017   |      -      |      -      |      -      |      -      |    23.0     |      -      |      -      |
 | <span id = "1182">[Action-Search](#2182)</span> |   ECCV-2018   |      -      |      -      |    51.8     |    42.4     |    30.8     |    20.2     |    11.1     |
 | <span id = "1183">[BSN](#2183)</span>           |   ECCV-2018   |      -      |      -      |    53.5     |    45.0     |    36.9     |    28.4     |    20.0     |
 | <span id = "1184">[TPC](#2184)</span>           |   AAAI-2018   |      -      |      -      |    44.1     |    37.1     |    28.2     |    20.6     |    12.7     |
@@ -90,7 +90,7 @@ A curated list of temporal action localization/detection and related area (e.g. 
 | <span id = "1193">[GTAN](#2193)</span>          |   CVPR-2019   |    69.1     |    63.7     |    57.8     |    47.2     |    38.8     |      -      |      -      |
 | <span id = "1194">[BMN](#2194)</span>           |   ICCV-2019   |      -      |      -      |    56.0     |    47.4     |    38.8     |    29.7     |    20.5     |
 | <span id = "1181">[TAL-Net](#2181)</span>       |   CVPR-2018   |    59.8     |    57.1     |    53.2     |    48.5     |    42.8     |    33.8     |    20.8     |
-| <span id = "1196">[RAM](#2196)</span>           |   TMM         |    65.4     |    63.1     |    58.8     |    52.7     |    43.7     |      -      |      -      |
+| <span id = "1196">[RAM](#2196)</span>           |   TMM-2019    |    65.4     |    63.1     |    58.8     |    52.7     |    43.7     |      -      |      -      |
 | <span id = "1195">[PGCN](#2195)</span>          |   ICCV-2019   |    69.5     |    67.8     |    63.6     |    57.8     |    49.1     |      -      |      -      |
 
 |                     Method                      |  Conference   |   IoU@0.1   |   IoU@0.2   |   IoU@0.3   |   IoU@0.4   |   IoU@0.5   |   IoU@0.6   |   IoU@0.7   |
@@ -111,7 +111,7 @@ A curated list of temporal action localization/detection and related area (e.g. 
 | [SMS](#2172)           |   CVPR-2017   |      -      |      -       |      -       |      -      |
 | [SCC](#2173)           |   CVPR-2017   |    39.9     |    18.7      |     4.7      |    19.3     |
 | [SSN](#2174)           |   ICCV-2017   |    43.26    |    28.70     |     5.63     |    28.28    |
-| [R-C3D](#2175)         |   ICCV-2017   |    26.8     |      -       |      -       |    12.7?    |
+| [R-C3D](#2175)         |   ICCV-2017   |    26.8     |      -       |      -       |      -      |
 | [TCN](#2176)           |   ICCV-2017   |    37.49    |    23.47     |     4.47     |    23.58    |
 | [TURN](#2177)          |   ICCV-2017   |      -      |      -       |      -       |      -      |
 | [SST](#2178)           |   ICCV-2017   |      -      |      -       |      -       |      -      |
@@ -139,7 +139,7 @@ A curated list of temporal action localization/detection and related area (e.g. 
 
 ### <span id = "211">2019</span>
 
-- <span id = "4196">[[IWO-Net]](#3196)</span> [**Breaking Winner-Takes-All: Iterative-Winners-Out Networks for Weakly Supervised Temporal Action Localization**](https://ieeexplore.ieee.org/document/8737877) - Runhao Zeng et al, `TIP`.
+- <span id = "4196">[[IWO-Net]](#3196)</span> [**Breaking Winner-Takes-All: Iterative-Winners-Out Networks for Weakly Supervised Temporal Action Localization**](https://ieeexplore.ieee.org/document/8737877) - Runhao Zeng et al, `TIP 2019`.
 - <span id = "4195">[[BM]](#3195)</span> [**Weakly-supervised Action Localization with Background Modeling**](http://openaccess.thecvf.com/content_ICCV_2019/papers/Nguyen_Weakly-Supervised_Action_Localization_With_Background_Modeling_ICCV_2019_paper.pdf) - Phuc Xuan Nguyen et al, `ICCV 2019`.
 - <span id = "4194">[[TSM]](#3194)</span> [**Temporal Structure Mining for Weakly Supervised Action Detection**](http://openaccess.thecvf.com/content_ICCV_2019/papers/Yu_Temporal_Structure_Mining_for_Weakly_Supervised_Action_Detection_ICCV_2019_paper.pdf) - Tan Yu et al, `ICCV 2019`.
 - <span id = "4193">[[CleanNet]](#3193)</span> [**Weakly Supervised Temporal Action Localization through Contrast based Evaluation Networks**](https://arxiv.org/abs/1811.07460) - Ziyi Liu et al, `ICCV 2019`.
@@ -179,7 +179,7 @@ A curated list of temporal action localization/detection and related area (e.g. 
 | <span id = "3192">[STAR](#4192)</span>         |   AAAI-2019   |    68.8     |    60.0     |    48.7     |    34.7     |    23.0     |      -      |      -      |
 | <span id = "3193">[CleanNet](#4193)</span>     |   ICCV-2019   |    68.8     |    60.0     |    37.0     |    30.9     |    23.9     |    13.9     |     7.1     |
 | <span id = "3194">[TSM](#4194)</span>          |   ICCV-2019   |      -      |      -      |    39.5     |      -      |    24.5     |      -      |     7.1     |
-| <span id = "3196">[IWO-Net](#4196)</span>      |   TIP         |    57.6     |    48.9     |    38.9     |    29.3     |    20.5     |      -      |      -      |
+| <span id = "3196">[IWO-Net](#4196)</span>      |   TIP-2019    |    57.6     |    48.9     |    38.9     |    29.3     |    20.5     |      -      |      -      |
 | <span id = "3195">[BM](#4195)</span>           |   ICCV-2019   |    60.4     |    56.0     |    46.6     |    37.5     |    26.8     |    17.6     |     9.0     |
 
 #### <span id = "232">ActivityNet v1.3</span>
@@ -191,7 +191,7 @@ A curated list of temporal action localization/detection and related area (e.g. 
 | [STAR](#4192)         |   AAAI-2019   |    31.1     |     18.8     |     4.7      |      -      |
 | [BM](#4195)           |   ICCV-2019   |    36.4     |     19.2     |     2.9      |      -      |
 | [TSM](#4194)          |   ICCV-2019   |    30.3     |     19.0     |     4.5      |      -      |
-| [IWO-Net](#4196)      |   TIP         |    29.8     |     17.6     |     4.7      |      -      |
+| [IWO-Net](#4196)      |   TIP-2019    |    29.8     |     17.6     |     4.7      |      -      |
 
 
 #### <span id = "233">ActivityNet v1.2</span>
