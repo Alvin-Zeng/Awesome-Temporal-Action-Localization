@@ -29,7 +29,7 @@ A curated list of temporal action localization/detection and related area (e.g. 
 - <span id = "2193">[[GTAN]](#1193)</span> [**Gaussian Temporal Awareness Networks for Action Localization**](https://arxiv.org/abs/1909.03877) - Fuchen Long et al, `CVPR 2019`.
 - <span id = "2192">[[DBS]](#1192)</span> [**Video Imprint Segmentation for Temporal Action Detection in Untrimmed Videos**](https://www.aaai.org/ojs/index.php/AAAI/article/view/4846) - Zhanning Gao et al, `AAAI 2019`.
 - <span id = "2191">[[C-TCN]](#1191)</span> [**Deep Concept-wise Temporal Convolutional Networks for Action Localization**](https://arxiv.org/abs/1908.09442) - Xin Li et al, `arXiv 2019`.
-- <span id = "2197">[[PGCN]](#1197)</span> [**G-TAD: Sub-Graph Localization for Temporal Action Detection**](https://arxiv.org/pdf/1911.11462.pdf) - MengMeng Xu et al, `arXiv 2019`. 
+- <span id = "2197">[[G-TAD]](#1197)</span> [**G-TAD: Sub-Graph Localization for Temporal Action Detection**](https://arxiv.org/pdf/1911.11462.pdf) - MengMeng Xu et al, `CVPR 2020`.  [[code]](<https://github.com/frostinassiky/gtad>)
 
 ### <span id = "112">2018</span>
 
