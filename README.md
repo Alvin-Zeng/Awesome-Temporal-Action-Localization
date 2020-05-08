@@ -23,6 +23,7 @@ A curated list of temporal action localization/detection and related area (e.g. 
 
 ### <span id = "tal-2020"> 2020 </span>
 
+- <span id = "2204">[[G-TAD]](#1204)</span> [**Fast Learning of Temporal Action Proposal via Dense Boundary Generator**](https://arxiv.org/pdf/1911.04127) - Chunming Lin et al, `AAAI 2020`. [[code]](<https://github.com/Tencent/ActionDetection-DBG>)
 - <span id = "2203">[[G-TAD]](#1203)</span> [**G-TAD: Sub-Graph Localization for Temporal Action Detection**](https://arxiv.org/abs/1911.11462) - Mengmeng Xu et al, `CVPR 2020`. [[code]](<https://github.com/frostinassiky/gtad>)
 - <span id = "2202">[[PBRNet]](#1202)</span> [**Progressive Boundary Refinement Network for Temporal Action Detection**](https://aaai.org/Papers/AAAI/2020GB/AAAI-LiuQ.4870.pdf) - Qinying Liu et al, `AAAI 2020`.
 - <span id = "2201">[[AGCN]](#1201)</span> [**Graph Attention based Proposal 3D ConvNets for Action Detection**](https://www.aaai.org/Papers/AAAI/2020GB/AAAI-LiJ.1424.pdf) - Jun Li et al, `AAAI 2020`.
@@ -94,6 +95,7 @@ A curated list of temporal action localization/detection and related area (e.g. 
 | <span id = "1201">[AGCN](#2201)</span>          |   AAAI-2020   |    59.3     |    59.6     |    57.1     |    51.6     |    38.6     |    28.9     |     17.0    |
 | <span id = "1193">[GTAN](#2193)</span>          |   CVPR-2019   |    69.1     |    63.7     |    57.8     |    47.2     |    38.8     |      -      |      -      |
 | <span id = "1194">[BMN](#2194)</span>           |   ICCV-2019   |      -      |      -      |    56.0     |    47.4     |    38.8     |    29.7     |    20.5     |
+| <span id = "1204">[DBG](#2204)</span>           |   AAAI-2020   |      -      |      -      |    57.8     |    49.4     |    39.8     |    30.2     |    21.7     |
 | <span id = "1185">[TAL-Net](#2185)</span>       |   CVPR-2018   |    59.8     |    57.1     |    53.2     |    48.5     |    42.8     |    33.8     |    20.8     |
 | <span id = "1195">[RAM](#2195)</span>           |   TMM-2019    |    65.4     |    63.1     |    58.8     |    52.7     |    43.7     |      -      |      -      |
 | <span id = "1196">[PGCN](#2196)</span>          |   ICCV-2019   |    69.5     |    67.8     |    63.6     |    57.8     |    49.1     |      -      |      -      |
