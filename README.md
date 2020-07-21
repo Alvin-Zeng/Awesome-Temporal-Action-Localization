@@ -145,7 +145,7 @@ A curated list of temporal action localization/detection and related area (e.g. 
 - <span id = "4201">[[WSGN]](#3201)</span> [**Weakly Supervised Gaussian Networks for Action Detection**](https://arxiv.org/abs/1904.07774) - Basura Fernando et al, `WACV 2020`.
 
 ### <span id = "wstal-2019"> 2019 </span>
-- <span id = "4197">[[MAAN]](#3197)</span> [**MARGINALIZED AVERAGE ATTENTIONAL NETWORK FOR WEAKLY-SUPERVISED LEARNING **](https://openreview.net/pdf?id=HkljioCcFQ) - Yuan Yuan et al, `ICLR 2019`.
+- <span id = "4197">[[MAAN]](#3197)</span> [**Marginalized Average Attentional Network for Weakly Supervised Learning**](https://openreview.net/pdf?id=HkljioCcFQ) - Yuan Yuan et al, `ICLR 2019`.
 - <span id = "4196">[[IWO-Net]](#3196)</span> [**Breaking Winner-Takes-All: Iterative-Winners-Out Networks for Weakly Supervised Temporal Action Localization**](https://ieeexplore.ieee.org/document/8737877) - Runhao Zeng et al, `TIP 2019`.
 - <span id = "4195">[[BM]](#3195)</span> [**Weakly-supervised Action Localization with Background Modeling**](http://openaccess.thecvf.com/content_ICCV_2019/papers/Nguyen_Weakly-Supervised_Action_Localization_With_Background_Modeling_ICCV_2019_paper.pdf) - Phuc Xuan Nguyen et al, `ICCV 2019`.
 - <span id = "4194">[[TSM]](#3194)</span> [**Temporal Structure Mining for Weakly Supervised Action Detection**](http://openaccess.thecvf.com/content_ICCV_2019/papers/Yu_Temporal_Structure_Mining_for_Weakly_Supervised_Action_Detection_ICCV_2019_paper.pdf) - Tan Yu et al, `ICCV 2019`.
