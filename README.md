@@ -22,7 +22,7 @@ A curated list of temporal action localization/detection and related area (e.g. 
 ## <span id = "tal-paper"> Papers </span>
 
 ### <span id = "tal-2020"> 2020 </span>
-
+- <span id = "2205">[[BU-TAL]](#1205)</span> [**Bottom-Up Temporal Action Localization with Mutual Regularization**](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123530528.pdf) - Peisen Zhao et al, `ECCV 2020`.
 - <span id = "2204">[[DBG]](#1204)</span> [**Fast Learning of Temporal Action Proposal via Dense Boundary Generator**](https://arxiv.org/pdf/1911.04127) - Chunming Lin et al, `AAAI 2020`. [[code]](<https://github.com/Tencent/ActionDetection-DBG>)
 - <span id = "2203">[[G-TAD]](#1203)</span> [**G-TAD: Sub-Graph Localization for Temporal Action Detection**](https://arxiv.org/abs/1911.11462) - Mengmeng Xu et al, `CVPR 2020`. [[code]](<https://github.com/frostinassiky/gtad>)
 - <span id = "2202">[[PBRNet]](#1202)</span> [**Progressive Boundary Refinement Network for Temporal Action Detection**](https://aaai.org/Papers/AAAI/2020GB/AAAI-LiuQ.4870.pdf) - Qinying Liu et al, `AAAI 2020`.
@@ -101,6 +101,7 @@ A curated list of temporal action localization/detection and related area (e.g. 
 | <span id = "1196">[PGCN](#2196)</span>          |   ICCV-2019   |    69.5     |    67.8     |    63.6     |    57.8     |    49.1     |      -      |      -      |
 | <span id = "1202">[PBRNet](#2202)</span>        |   AAAI-2020   |      -      |      -      |    58.5     |    54.6     |    51.3     |    41.8     |     29.5    |
 | <span id = "1203">[G-TAD](#2203)</span>         |   CVPR-2020   |      -      |      -      |    66.4     |    60.4     |    51.6     |    37.6     |     22.9    |
+| <span id = "1204">[BU-TAL](#2204)</span>        |   ECCV-2020   |      -      |      -      |    53.9     |    50.7     |    45.4     |    38.0     |     28.5    |
 
 |                     Method                      |  Conference   |   IoU@0.1   |   IoU@0.2   |   IoU@0.3   |   IoU@0.4   |   IoU@0.5   |   IoU@0.6   |   IoU@0.7   |
 | :---------------------------------------------: | :-----------: | :---------: | :---------: | :---------: | :---------: | :---------: | :---------: | :---------: |
@@ -125,6 +126,7 @@ A curated list of temporal action localization/detection and related area (e.g. 
 | [G-TAD](#2203)         |   CVPR-2020   |    50.36    |    34.60     |     9.02     |    34.09    |
 | [GTAN](#2193)          |   CVPR-2019   |    52.61    |    34.14     |     8.91     |    34.31    |
 | [PBRNet](#2202)        |   AAAI-2020   |    53.96    |    34.97     |     8.98     |    35.01    |
+| [BU-TAL](#2204)        |   ECCV-2020   |    43.47    |    33.91     |     9.21     |    30.12    |
 
 |         Method         |  Conference   |   IoU@0.5   |   IoU@0.75   |   IoU@0.95   |   IoU@Avg   |
 | :--------------------: | :-----------: | :---------: | :----------: | :----------: | :---------: |
@@ -137,7 +139,9 @@ A curated list of temporal action localization/detection and related area (e.g. 
 ## <span id = "wstal-paper"> Paper </span>
 
 ### <span id = "wstal-2020"> 2020 </span>
-
+- <span id = "4208">[[A2CL-PT]](#3208)</span> [**Adversarial Background-Aware Loss for Weakly-supervised Temporal Activity Localization**](https://arxiv.org/abs/2007.06643) - Kyle Min et al, `ECCV 2020`.
+- <span id = "4207">[[TSCN]](#3207)</span> [**Two-Stream Consensus Network for Weakly-Supervised Temporal Action Localization**](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123510035.pdf) - Yuanhao Zhai et al, `ECCV 2020`.
+- <span id = "4206">[[DGAM]](#3206)</span> [**Weakly-Supervised Action Localization by Generative Attention Modeling**](https://openaccess.thecvf.com/content_CVPR_2020/papers/Shi_Weakly-Supervised_Action_Localization_by_Generative_Attention_Modeling_CVPR_2020_paper.pdf) - Baifeng Shi et al, `CVPR 2020`.
 - <span id = "4205">[[RPN]](#3205)</span> [**Relational Prototypical Network for Weakly Supervised Temporal Action Localization**](https://aaai.org/Papers/AAAI/2020GB/AAAI-HuangL.1235.pdf) - Linjiang Huang et al, `AAAI 2020`.
 - <span id = "4204">[[BaSNet]](#3204)</span> [**Background Suppression Network for Weakly-supervised Temporal Action Localization**](https://arxiv.org/abs/1911.09963) - Pilhyeon Lee et al, `AAAI 2020`.
 - <span id = "4203">[[DML]](#3203)</span> [**Weakly Supervised Temporal Action Localization Using Deep Metric Learning**](https://arxiv.org/abs/2001.07793) - Ashraful Islam et al, `WACV 2020`.
@@ -193,6 +197,8 @@ A curated list of temporal action localization/detection and related area (e.g. 
 | <span id = "3204">[BaSNet](#4204)</span>       |   AAAI-2020   |    58.2     |    52.3     |    44.6     |    36.0     |    27.0     |    18.6     |    10.4     |
 | <span id = "3205">[RPN](#4205)</span>          |   AAAI-2020   |    62.3     |    57.0     |    48.2     |    37.2     |    27.9     |    16.7     |     8.1     |
 | <span id = "3203">[DML](#4203)</span>          |   AAAI-2020   |    62.3     |      -      |    46.8     |      -      |    29.6     |      -      |     9.7     |
+| <span id = "3206">[DGAM](#4206)</span>         |   CVPR-2020   |    60.0     |    54.2     |    46.8     |    38.2     |    28.8     |    19.8     |    11.5     |
+| <span id = "3208">[A2CL-PT](#4208)</span>      |   ECCV-2020   |    61.2     |    56.1     |    48.1     |    39.0     |    30.1     |    19.2     |    10.6     |
 
 #### <span id = "wstal-activitynet13"> ActivityNet v1.3 </span>
 
@@ -205,6 +211,7 @@ A curated list of temporal action localization/detection and related area (e.g. 
 | [CMCS](#4191)         |   CVPR-2019   |    34.0     |     20.9     |     5.7      |    21.2     |
 | [BaSNet](#4204)       |   AAAI-2019   |    34.5     |     22.5     |     4.9      |    22.2     |
 | [BM](#4195)           |   ICCV-2019   |    36.4     |     19.2     |     2.9      |      -      |
+| [A2CL-PT](#4208)      |   ECCV-2020   |    36.8     |     22.0     |     5.2      |    22.5     |
 
 #### <span id = "wstal-activitynet12"> ActivityNet v1.2 </span>
 
