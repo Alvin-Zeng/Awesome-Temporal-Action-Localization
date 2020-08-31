@@ -23,6 +23,9 @@ A curated list of temporal action localization/detection and related area (e.g. 
 
 ### <span id = "tal-2020"> 2020 </span>
 
+
+- <span id = "2205">[[IntraC&InterC]](#1205)</span> [**Bottom-Up Temporal Action Localization with Mutual Regularization**](https://arxiv.org/pdf/2002.07358) - Peisen Zhao et al, `ECCV 2020`. [[code]](<https://github.com/PeisenZhao/Bottom-Up-TAL-with-MR>)
+
 - <span id = "2204">[[DBG]](#1204)</span> [**Fast Learning of Temporal Action Proposal via Dense Boundary Generator**](https://arxiv.org/pdf/1911.04127) - Chunming Lin et al, `AAAI 2020`. [[code]](<https://github.com/Tencent/ActionDetection-DBG>)
 - <span id = "2203">[[G-TAD]](#1203)</span> [**G-TAD: Sub-Graph Localization for Temporal Action Detection**](https://arxiv.org/abs/1911.11462) - Mengmeng Xu et al, `CVPR 2020`. [[code]](<https://github.com/frostinassiky/gtad>)
 - <span id = "2202">[[PBRNet]](#1202)</span> [**Progressive Boundary Refinement Network for Temporal Action Detection**](https://aaai.org/Papers/AAAI/2020GB/AAAI-LiuQ.4870.pdf) - Qinying Liu et al, `AAAI 2020`.
