@@ -149,7 +149,7 @@ A curated list of temporal action localization/detection and related area (e.g. 
 - <span id = "4201">[[WSGN]](#3201)</span> [**Weakly Supervised Gaussian Networks for Action Detection**](https://arxiv.org/abs/1904.07774) - Basura Fernando et al, `WACV 2020`.
 
 ### <span id = "wstal-2019"> 2019 </span>
-
+- <span id = "4197">[[MAAN]](#3197)</span> [**Marginalized Average Attentional Network for Weakly Supervised Learning**](https://openreview.net/pdf?id=HkljioCcFQ) - Yuan Yuan et al, `ICLR 2019`.
 - <span id = "4196">[[IWO-Net]](#3196)</span> [**Breaking Winner-Takes-All: Iterative-Winners-Out Networks for Weakly Supervised Temporal Action Localization**](https://ieeexplore.ieee.org/document/8737877) - Runhao Zeng et al, `TIP 2019`.
 - <span id = "4195">[[BM]](#3195)</span> [**Weakly-supervised Action Localization with Background Modeling**](http://openaccess.thecvf.com/content_ICCV_2019/papers/Nguyen_Weakly-Supervised_Action_Localization_With_Background_Modeling_ICCV_2019_paper.pdf) - Phuc Xuan Nguyen et al, `ICCV 2019`.
 - <span id = "4194">[[TSM]](#3194)</span> [**Temporal Structure Mining for Weakly Supervised Action Detection**](http://openaccess.thecvf.com/content_ICCV_2019/papers/Yu_Temporal_Structure_Mining_for_Weakly_Supervised_Action_Detection_ICCV_2019_paper.pdf) - Tan Yu et al, `ICCV 2019`.
@@ -185,6 +185,7 @@ A curated list of temporal action localization/detection and related area (e.g. 
 | <span id = "3181">[One-Shot](#4181)</span>     |   CVPR-2018   |      -      |      -      |      -      |      -      |    14.7     |      -      |      -      |
 | <span id = "3182">[STPN](#4182)</span>         |   CVPR-2018   |    52.0     |    44.7     |    35.5     |    25.8     |    16.9     |     9.9     |     4.3     |
 | <span id = "3196">[IWO-Net](#4196)</span>      |   TIP-2019    |    57.6     |    48.9     |    38.9     |    29.3     |    20.5     |      -      |      -      |
+| <span id = "3197">[MAAN](#4197)</span>         |   ICLR-2019   |    59.8     |    50.8     |    41.1     |    30.6     |    20.3     |     12.0    |     6.9     |
 | <span id = "3201">[WSGN](#4201)</span>         |   WACV-2020   |    55.3     |    47.6     |    38.9     |    30.0     |    21.1     |      -      |      -      |
 | <span id = "3183">[AutoLoc](#4183)</span>      |   ECCV-2018   |      -      |      -      |    35.8     |    29.0     |    21.2     |    13.4     |     5.8     |
 | <span id = "3184">[W-TAL](#4184)</span>        |   ECCV-2018   |    55.2     |    49.6     |    40.1     |    31.1     |    22.8     |      -      |     7.6     |
@@ -210,8 +211,11 @@ A curated list of temporal action localization/detection and related area (e.g. 
 | [STAR](#4192)         |   AAAI-2019   |    31.1     |     18.8     |     4.7      |      -      |
 | [CMCS](#4191)         |   CVPR-2019   |    34.0     |     20.9     |     5.7      |    21.2     |
 | [BaSNet](#4204)       |   AAAI-2019   |    34.5     |     22.5     |     4.9      |    22.2     |
+| [MAAN](#4197)         |   ICLR-2019   |    33.7     |     21.9     |     5.5      |      -      |
 | [BM](#4195)           |   ICCV-2019   |    36.4     |     19.2     |     2.9      |      -      |
 | [A2CL-PT](#4208)      |   ECCV-2020   |    36.8     |     22.0     |     5.2      |    22.5     |
+
+
 
 #### <span id = "wstal-activitynet12"> ActivityNet v1.2 </span>
 
