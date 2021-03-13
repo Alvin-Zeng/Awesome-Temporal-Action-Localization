@@ -24,6 +24,7 @@ A curated list of temporal action localization/detection and related area (e.g. 
 ## <span id = "tal-paper"> Papers </span>
 
 ### <span id = "tal-2021"> 2021 </span>
+- <span id = "22104">[[MUSeS]](#12104)</span> [**Multi-shot temporal event localization: A Benchmark**](https://arxiv.org/pdf/2012.09434.pdf) - Xiaolong Liu et al, `CVPR 2021`
 - <span id = "22103">[[SALAD]](#12103)</span> [**SALAD: Self-Assessment Learning for Action Detection**](https://openaccess.thecvf.com/content/WACV2021/html/Vaudaux-Ruth_SALAD_Self-Assessment_Learning_for_Action_Detection_WACV_2021_paper.html) - Guillaume Vaudaux-Ruth et al, `WACV 2021`
 - <span id = "22102">[[RTD-Net]](#12102)</span> [**Relaxed Transformer Decoders for Direct Action Proposal Generation**](https://arxiv.org/pdf/2102.01894) - Jing Tan et al, `arxiv 2021`. [[code]](https://github.com/MCG-NJU/RTD-Action)
 - <span id = "22101">[[AGT]](#12101)</span> [**Activity Graph Transformer for Temporal Action Localization**](https://arxiv.org/pdf/2101.08540.pdf) - Megha Nawhal et al, `arxiv 2021`
@@ -113,6 +114,7 @@ A curated list of temporal action localization/detection and related area (e.g. 
 | <span id = "12005">[BU-TAL](#22005)</span>        |   ECCV-2020   |      -      |      -      |    53.9     |    50.7     |    45.4     |    38.0     |     28.5    |
 | <span id = "12006">[TSI](#22006)</span>           |   ACCV-2020   |      -      |      -      |    61.0     |    52.1     |    42.6     |    33.2     |    22.4     |
 | <span id = "12103">[SALAD](#22103)</span>         |   WACV-2021   |    73.3     |    70.7     |    65.7     |    57.0     |    44.6     |      -      |      -      |
+| <span id = "12104">[MUSES](#22104)</span>         |   CVPR-2021   |      -      |      -      |    68.9     |    64.0     |    56.9     |     46.3    |     31.0      |
 
 |                     Method                      |  Conference   |   IoU=0.1   |   IoU=0.2   |   IoU=0.3   |   IoU=0.4   |   IoU=0.5   |   IoU=0.6   |   IoU=0.7   |
 | :---------------------------------------------: | :-----------: | :---------: | :---------: | :---------: | :---------: | :---------: | :---------: | :---------: |
@@ -146,6 +148,7 @@ A curated list of temporal action localization/detection and related area (e.g. 
 | [BU-TAL](#22005)        |   ECCV-2020   |    43.47    |    33.91     |     9.21     |    30.12    |
 | [TSI](#22006)           |   ACCV-2020   |    51.18    |    35.02     |     6.59     |    34.15    |
 | [SALAD](#22103)         |   WACV-2021   |    51.72    |    31.21     |     3.33     |    31.02    |
+| [MUSES](#22104)         |   CVPR-2021   |    50.02    |    34.97     |     6.57     |    33.99    |
 
 |         Method         |  Conference   |   IoU=0.5   |   IoU=0.75   |   IoU=0.95   |   IoU=Avg   |
 | :--------------------: | :-----------: | :---------: | :----------: | :----------: | :---------: |
