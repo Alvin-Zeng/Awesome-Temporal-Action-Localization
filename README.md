@@ -24,6 +24,7 @@ A curated list of temporal action localization/detection and related area (e.g. 
 ## <span id = "tal-paper"> Papers </span>
 
 ### <span id = "tal-2021"> 2021 </span>
+- <span id = "22105">[[AFSD]](#12105)</span> [**Learning Salient Boundary Feature for Anchor-free Temporal Action Localization**](https://arxiv.org/abs/2103.13137) - Chuming Lin et al, `CVPR 2021`. [[code]](<https://github.com/TencentYoutuResearch/ActionDetection-AFSD>)
 - <span id = "22104">[[MUSeS]](#12104)</span> [**Multi-shot temporal event localization: A Benchmark**](https://arxiv.org/pdf/2012.09434.pdf) - Xiaolong Liu et al, `CVPR 2021`
 - <span id = "22103">[[SALAD]](#12103)</span> [**SALAD: Self-Assessment Learning for Action Detection**](https://openaccess.thecvf.com/content/WACV2021/html/Vaudaux-Ruth_SALAD_Self-Assessment_Learning_for_Action_Detection_WACV_2021_paper.html) - Guillaume Vaudaux-Ruth et al, `WACV 2021`
 - <span id = "22102">[[RTD-Net]](#12102)</span> [**Relaxed Transformer Decoders for Direct Action Proposal Generation**](https://arxiv.org/pdf/2102.01894) - Jing Tan et al, `arxiv 2021`. [[code]](https://github.com/MCG-NJU/RTD-Action)
@@ -37,7 +38,7 @@ A curated list of temporal action localization/detection and related area (e.g. 
 - <span id = "22007">[[VAN]](#12007)</span> [**Temporal Action Localization with Variance-Aware Networks**](https://arxiv.org/pdf/2008.11254.pdf) - Ting-Ting Xie et al, `arxiv 2020`
 - <span id = "22006">[[TSI]](#12006)</span> [**TSI: Temporal Scale Invariant Network for Action Proposal Generation**](https://openaccess.thecvf.com/content/ACCV2020/html/Liu_TSI_Temporal_Scale_Invariant_Network_for_Action_Proposal_Generation_ACCV_2020_paper.html) - Shuming Liu et al, `ACCV 2020`. [[code]](https://github.com/sming256/TSI)
 - <span id = "22005">[[BU-TAL]](#12005)</span> [**Bottom-Up Temporal Action Localization with Mutual Regularization**](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123530528.pdf) - Peisen Zhao et al, `ECCV 2020`.
-- <span id = "22004">[[DBG]](#12004)</span> [**Fast Learning of Temporal Action Proposal via Dense Boundary Generator**](https://arxiv.org/pdf/1911.04127) - Chunming Lin et al, `AAAI 2020`. [[code]](<https://github.com/Tencent/ActionDetection-DBG>)
+- <span id = "22004">[[DBG]](#12004)</span> [**Fast Learning of Temporal Action Proposal via Dense Boundary Generator**](https://arxiv.org/pdf/1911.04127) - Chuming Lin et al, `AAAI 2020`. [[code]](<https://github.com/Tencent/ActionDetection-DBG>)
 - <span id = "22003">[[G-TAD]](#12003)</span> [**G-TAD: Sub-Graph Localization for Temporal Action Detection**](https://arxiv.org/abs/1911.11462) - Mengmeng Xu et al, `CVPR 2020`. [[code]](<https://github.com/frostinassiky/gtad>)
 - <span id = "22002">[[PBRNet]](#12002)</span> [**Progressive Boundary Refinement Network for Temporal Action Detection**](https://aaai.org/Papers/AAAI/2020GB/AAAI-LiuQ.4870.pdf) - Qinying Liu et al, `AAAI 2020`.
 - <span id = "22001">[[AGCN]](#12001)</span> [**Graph Attention based Proposal 3D ConvNets for Action Detection**](https://www.aaai.org/Papers/AAAI/2020GB/AAAI-LiJ.1424.pdf) - Jun Li et al, `AAAI 2020`.
@@ -115,6 +116,7 @@ A curated list of temporal action localization/detection and related area (e.g. 
 | <span id = "12006">[TSI](#22006)</span>           |   ACCV-2020   |      -      |      -      |    61.0     |    52.1     |    42.6     |    33.2     |    22.4     |
 | <span id = "12103">[SALAD](#22103)</span>         |   WACV-2021   |    73.3     |    70.7     |    65.7     |    57.0     |    44.6     |      -      |      -      |
 | <span id = "12104">[MUSES](#22104)</span>         |   CVPR-2021   |      -      |      -      |    68.9     |    64.0     |    56.9     |     46.3    |     31.0      |
+| <span id = "12105">[AFSD](#22105)</span>         |   CVPR-2021   |      -      |      -      |    67.3     |    62.4     |    55.5     |     43.7    |     31.1      |
 
 |                     Method                      |  Conference   |   IoU=0.1   |   IoU=0.2   |   IoU=0.3   |   IoU=0.4   |   IoU=0.5   |   IoU=0.6   |   IoU=0.7   |
 | :---------------------------------------------: | :-----------: | :---------: | :---------: | :---------: | :---------: | :---------: | :---------: | :---------: |
@@ -149,6 +151,7 @@ A curated list of temporal action localization/detection and related area (e.g. 
 | [TSI](#22006)           |   ACCV-2020   |    51.18    |    35.02     |     6.59     |    34.15    |
 | [SALAD](#22103)         |   WACV-2021   |    51.72    |    31.21     |     3.33     |    31.02    |
 | [MUSES](#22104)         |   CVPR-2021   |    50.02    |    34.97     |     6.57     |    33.99    |
+| [AFSD](#22105)         |   CVPR-2021   |    52.38    |    35.27    |     6.47     |    34.39    |
 
 |         Method         |  Conference   |   IoU=0.5   |   IoU=0.75   |   IoU=0.95   |   IoU=Avg   |
 | :--------------------: | :-----------: | :---------: | :----------: | :----------: | :---------: |
