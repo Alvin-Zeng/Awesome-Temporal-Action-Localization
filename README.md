@@ -23,7 +23,9 @@ A curated list of temporal action localization/detection and related area (e.g. 
 
 ## <span id = "tal-paper"> Papers </span>
 
-### <span id = "tal-2021"> 2021 </span>
+### <span id = "tal-2021"> 2021 </span> 
+
+- <span id = "22106">[[AVFusion]](#12106)</span> [**Hear Me Out: Fusional Approaches for AudioAugmented Temporal Action Localization**](https://arxiv.org/pdf/2106.14118v1.pdf) - Bagchi et al, [[code]](<https://github.com/skelemoa/tal-hmo/>)
 - <span id = "22105">[[AFSD]](#12105)</span> [**Learning Salient Boundary Feature for Anchor-free Temporal Action Localization**](https://arxiv.org/abs/2103.13137) - Chuming Lin et al, `CVPR 2021`. [[code]](<https://github.com/TencentYoutuResearch/ActionDetection-AFSD>)
 - <span id = "22104">[[MUSeS]](#12104)</span> [**Multi-shot temporal event localization: A Benchmark**](https://arxiv.org/pdf/2012.09434.pdf) - Xiaolong Liu et al, `CVPR 2021`
 - <span id = "22103">[[SALAD]](#12103)</span> [**SALAD: Self-Assessment Learning for Action Detection**](https://openaccess.thecvf.com/content/WACV2021/html/Vaudaux-Ruth_SALAD_Self-Assessment_Learning_for_Action_Detection_WACV_2021_paper.html) - Guillaume Vaudaux-Ruth et al, `WACV 2021`
@@ -117,6 +119,8 @@ A curated list of temporal action localization/detection and related area (e.g. 
 | <span id = "12103">[SALAD](#22103)</span>         |   WACV-2021   |    73.3     |    70.7     |    65.7     |    57.0     |    44.6     |      -      |      -      |
 | <span id = "12104">[MUSES](#22104)</span>         |   CVPR-2021   |      -      |      -      |    68.9     |    64.0     |    56.9     |     46.3    |     31.0      |
 | <span id = "12105">[AFSD](#22105)</span>         |   CVPR-2021   |      -      |      -      |    67.3     |    62.4     |    55.5     |     43.7    |     31.1      |
+| <span id = "12106">[AVFusion](#22106)</span>         |   arXiv-2021   |      -      |      -      |    **70.18**     |    **64.98**     |    **57.18**     |     45.42    |     28.86      |
+
 
 |                     Method                      |  Conference   |   IoU=0.1   |   IoU=0.2   |   IoU=0.3   |   IoU=0.4   |   IoU=0.5   |   IoU=0.6   |   IoU=0.7   |
 | :---------------------------------------------: | :-----------: | :---------: | :---------: | :---------: | :---------: | :---------: | :---------: | :---------: |
@@ -152,6 +156,7 @@ A curated list of temporal action localization/detection and related area (e.g. 
 | [SALAD](#22103)         |   WACV-2021   |    51.72    |    31.21     |     3.33     |    31.02    |
 | [MUSES](#22104)         |   CVPR-2021   |    50.02    |    34.97     |     6.57     |    33.99    |
 | [AFSD](#22105)         |   CVPR-2021   |    52.38    |    35.27    |     6.47     |    34.39    |
+| [AVFusion](#22106)         |   arXiv-2021   |    **52.73**    |    **37.78**    |     **9.39**     |    **36.63**    |
 
 |         Method         |  Conference   |   IoU=0.5   |   IoU=0.75   |   IoU=0.95   |   IoU=Avg   |
 | :--------------------: | :-----------: | :---------: | :----------: | :----------: | :---------: |
