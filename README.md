@@ -25,7 +25,7 @@ A curated list of temporal action localization/detection and related area (e.g. 
 
 ### <span id = "tal-2021"> 2021 </span> 
 
-- <span id = "22106">[[AVFusion]](#12106)</span> [**Hear Me Out: Fusional Approaches for AudioAugmented Temporal Action Localization**](https://arxiv.org/pdf/2106.14118v1.pdf) - Bagchi et al, [[code]](<https://github.com/skelemoa/tal-hmo/>)
+- <span id = "22106">[[AVFusion]](#12106)</span> [**Hear Me Out: Fusional Approaches for AudioAugmented Temporal Action Localization**](https://arxiv.org/pdf/2106.14118v1.pdf) - Bagchi et al,`arXiv 2021`. [[code]](<https://github.com/skelemoa/tal-hmo/>)
 - <span id = "22105">[[AFSD]](#12105)</span> [**Learning Salient Boundary Feature for Anchor-free Temporal Action Localization**](https://arxiv.org/abs/2103.13137) - Chuming Lin et al, `CVPR 2021`. [[code]](<https://github.com/TencentYoutuResearch/ActionDetection-AFSD>)
 - <span id = "22104">[[MUSeS]](#12104)</span> [**Multi-shot temporal event localization: A Benchmark**](https://arxiv.org/pdf/2012.09434.pdf) - Xiaolong Liu et al, `CVPR 2021`
 - <span id = "22103">[[SALAD]](#12103)</span> [**SALAD: Self-Assessment Learning for Action Detection**](https://openaccess.thecvf.com/content/WACV2021/html/Vaudaux-Ruth_SALAD_Self-Assessment_Learning_for_Action_Detection_WACV_2021_paper.html) - Guillaume Vaudaux-Ruth et al, `WACV 2021`
