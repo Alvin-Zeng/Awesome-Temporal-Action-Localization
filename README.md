@@ -1,5 +1,5 @@
 # Awesome Temporal Action Localization: [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
-![Update](https://img.shields.io/github/last-commit/Alvin-Zeng/Awesome-Temporal-Action-Localization?color=green&label=last-updated&logo=update&style=flat-squre) [![Contributor](https://img.shields.io/static/v1?label=by&message=xinyusun&color=blue&style=flat-squre)](https://github.com/XinyuSun)
+![Update](https://img.shields.io/github/last-commit/Alvin-Zeng/Awesome-Temporal-Action-Localization?color=green&label=last-updated&logo=update&style=flat-squre) [![Contributor](https://img.shields.io/static/v1?label=by&message=bolixinyu&color=blue&style=flat-squre)](https://github.com/bolixinyu)
 
 A curated list of temporal action localization/detection and related area (e.g. temporal action proposal) resources.
 
@@ -22,10 +22,14 @@ A curated list of temporal action localization/detection and related area (e.g. 
 ## <span id = "tal"> **Temporal Action Localization** </span>
 
 ## <span id = "tal-paper"> Papers </span>
-
-### <span id = "tal-2021"> 2021 </span> 
-
-- <span id = "22106">[[AVFusion]](#12106)</span> [**Hear Me Out: Fusional Approaches for AudioAugmented Temporal Action Localization**](https://arxiv.org/pdf/2106.14118v1.pdf) - Bagchi et al,`arXiv 2021`. [[code]](<https://github.com/skelemoa/tal-hmo/>)
+### <span id = "tal-2021"> 2021 </span>
+- <span id = "22112">[[AVFusion]](#12106)</span> [**Hear Me Out: Fusional Approaches for AudioAugmented Temporal Action Localization**](https://arxiv.org/pdf/2106.14118v1.pdf) - Bagchi et al,`arXiv 2021`. [[code]](<https://github.com/skelemoa/tal-hmo/>)
+- <span id = "22111">[[ContextLoc]](#12111)</span> [**Enriching Local and Global Contexts for Temporal Action Localization**](https://arxiv.org/pdf/2107.12960.pdf) - Zixin Zhu et al, `ICCV 2021`.
+- <span id = "22110">[[CSA]](#12110)</span> [**Class Semantics-based Attention for Action Detection**](https://arxiv.org/pdf/2109.02613.pdf) - Deepak Sridhar et al, `ICCV 2021`.
+- <span id = "22109">[[TCANet]](#12109)</span> [**Temporal Context Aggregation Network for Temporal Action Proposal Refinement**](https://arxiv.org/pdf/2103.13141.pdf) - Zhiwu Qing et al, `CVPR 2021`.
+- <span id = "22108">[[TadTR]](#12108)</span> [**End-to-end Temporal Action Detection with Transformer**](https://arxiv.org/pdf/2106.10271.pdf) - Xiaolong Liu et al, `arxiv 2021`. [[code]](<https://github.com/xlliu7/TadTR>)
+- <span id = "22107">[[Multi-Task TAD]](#12107)</span> [**Three Birds with One Stone: Multi-Task Temporal Action Detection via Recycling Temporal Annotations**](http://arxiv.org/abs/2103.01302) - Zhihui Li et al, `CVPR 2021`.
+- <span id = "22106">[[Coarse-Fine Networks]](#12106)</span> [**Coarse-Fine Networks for Temporal Activity Detection in Videos**](https://openaccess.thecvf.com/content/CVPR2021/papers/Li_Three_Birds_with_One_Stone_Multi-Task_Temporal_Action_Detection_via_CVPR_2021_paper.pdf) - Kahatapitiya et al, `CVPR 2021`.
 - <span id = "22105">[[AFSD]](#12105)</span> [**Learning Salient Boundary Feature for Anchor-free Temporal Action Localization**](https://arxiv.org/abs/2103.13137) - Chuming Lin et al, `CVPR 2021`. [[code]](<https://github.com/TencentYoutuResearch/ActionDetection-AFSD>)
 - <span id = "22104">[[MUSeS]](#12104)</span> [**Multi-shot temporal event localization: A Benchmark**](https://arxiv.org/pdf/2012.09434.pdf) - Xiaolong Liu et al, `CVPR 2021`
 - <span id = "22103">[[SALAD]](#12103)</span> [**SALAD: Self-Assessment Learning for Action Detection**](https://openaccess.thecvf.com/content/WACV2021/html/Vaudaux-Ruth_SALAD_Self-Assessment_Learning_for_Action_Detection_WACV_2021_paper.html) - Guillaume Vaudaux-Ruth et al, `WACV 2021`
@@ -117,20 +121,24 @@ A curated list of temporal action localization/detection and related area (e.g. 
 | <span id = "12005">[BU-TAL](#22005)</span>        |   ECCV-2020   |      -      |      -      |    53.9     |    50.7     |    45.4     |    38.0     |     28.5    |
 | <span id = "12006">[TSI](#22006)</span>           |   ACCV-2020   |      -      |      -      |    61.0     |    52.1     |    42.6     |    33.2     |    22.4     |
 | <span id = "12103">[SALAD](#22103)</span>         |   WACV-2021   |    73.3     |    70.7     |    65.7     |    57.0     |    44.6     |      -      |      -      |
-| <span id = "12104">[MUSES](#22104)</span>         |   CVPR-2021   |      -      |      -      |    68.9     |    64.0     |    56.9     |     46.3    |     31.0      |
-| <span id = "12105">[AFSD](#22105)</span>         |   CVPR-2021   |      -      |      -      |    67.3     |    62.4     |    55.5     |     43.7    |     31.1      |
-| <span id = "12106">[AVFusion](#22106)</span>         |   arXiv-2021   |      -      |      -      |    **70.18**     |    **64.98**     |    **57.18**     |     45.42    |     28.86      |
-
+| <span id = "12104">[MUSES](#22104)</span>         |   CVPR-2021   |      -      |      -      |    68.9     |    64.0     |    56.9     |     46.3    |     31.0    |
+| <span id = "12105">[AFSD](#22105)</span>          |   CVPR-2021   |      -      |      -      |    67.3     |    62.4     |    55.5     |     43.7    |     31.1    |
+| <span id = "12107">[Multi-Task TAD](#22107)</span>|   CVPR-2021   |      -      |      -      |    63.2     |    58.5     |    54.8     |     44.3    |     32.4    |
+| <span id = "12109">[TCANet](#22109)</span>        |   CVPR-2021   |      -      |      -      |    60.6     |    53.2     |    44.6     |     36.8    |     26.7    |
+| <span id = "12110">[CSA](#22110)</span>           |   ICCV-2021   |      -      |      -      |    64.4     |    58.0     |    49.2     |     38.2    |     27.8    |
+| <span id = "12111">[ContextLoc](#22110)</span>    |   ICCV-2021   |      -      |      -      |    68.3     |    63.8     |    54.3     |     41.8    |     26.2    |
 
 |                     Method                      |  Conference   |   IoU=0.1   |   IoU=0.2   |   IoU=0.3   |   IoU=0.4   |   IoU=0.5   |   IoU=0.6   |   IoU=0.7   |
 | :---------------------------------------------: | :-----------: | :---------: | :---------: | :---------: | :---------: | :---------: | :---------: | :---------: |
-| <span id = "11901">[C-TCN](#21901)</span>         |     arXiv     |    72.2     |    71.4     |    68.0     |    62.3     |    52.1     |      -      |      -      |
-| <span id = "12011">[VSGN](#22011)</span>          |     arXiv     |      -      |      -      |    66.7     |    60.4     |    52.4     |    41.0     |    30.4     |
-| <span id = "12010">[UFA](#22010)</span>           |     arXiv     |      -      |      -      |    45.6     |    36.4     |    26.2     |    15.5     |    7.1     |
-| <span id = "12009">[TSP](#22009)</span>           |     arXiv     |      -      |      -      |    69.1     |    63.3     |    53.5     |    40.4     |    26.0     |
-| <span id = "12007">[VAN](#22008)</span>           |     arXiv     |      -      |      -      |    55.0     |    48.6     |    39.2     |    26.9     |    15.0     |
-| <span id = "12101">[AGT](#22101)</span>           |     arXiv     |    72.1     |    69.8     |    65.0     |    58.1     |    50.2     |      -      |      -      |
-| <span id = "12102">[RTD-Net](#22102)</span>       |     arXiv     |      -      |      -      |    68.3     |    62.3     |    51.9     |    38.8     |    23.7     |
+| <span id = "11901">[C-TCN](#21901)</span>       |     arXiv     |    72.2     |    71.4     |    68.0     |    62.3     |    52.1     |      -      |      -      |
+| <span id = "12011">[VSGN](#22011)</span>        |     arXiv     |      -      |      -      |    66.7     |    60.4     |    52.4     |    41.0     |    30.4     |
+| <span id = "12010">[UFA](#22010)</span>         |     arXiv     |      -      |      -      |    45.6     |    36.4     |    26.2     |    15.5     |    7.1      |
+| <span id = "12009">[TSP](#22009)</span>         |     arXiv     |      -      |      -      |    69.1     |    63.3     |    53.5     |    40.4     |    26.0     |
+| <span id = "12007">[VAN](#22008)</span>         |     arXiv     |      -      |      -      |    55.0     |    48.6     |    39.2     |    26.9     |    15.0     |
+| <span id = "12101">[AGT](#22101)</span>         |     arXiv     |    72.1     |    69.8     |    65.0     |    58.1     |    50.2     |      -      |      -      |
+| <span id = "12102">[RTD-Net](#22102)</span>     |     arXiv     |      -      |      -      |    68.3     |    62.3     |    51.9     |    38.8     |    23.7     |
+| <span id = "12108">[TadTR](#22108)</span>       |     arXiv     |      -      |      -      |    59.6     |    55.0     |    46.6     |    35.7     |    24.3     |
+| <span id = "12112">[AVFusion](#22106)</span>    |   arXiv-2021  |      -      |      -      |    70.18    |    64.98    |    57.18    |     45.42   |     28.86   |
 
 #### <span id = "tal-result-activitynet13"> ActivityNet v1.3 </span>
 
@@ -155,16 +163,21 @@ A curated list of temporal action localization/detection and related area (e.g. 
 | [TSI](#22006)           |   ACCV-2020   |    51.18    |    35.02     |     6.59     |    34.15    |
 | [SALAD](#22103)         |   WACV-2021   |    51.72    |    31.21     |     3.33     |    31.02    |
 | [MUSES](#22104)         |   CVPR-2021   |    50.02    |    34.97     |     6.57     |    33.99    |
-| [AFSD](#22105)         |   CVPR-2021   |    52.38    |    35.27    |     6.47     |    34.39    |
-| [AVFusion](#22106)         |   arXiv-2021   |    **52.73**    |    **37.78**    |     **9.39**     |    **36.63**    |
+| [AFSD](#22105)          |   CVPR-2021   |    52.38    |    35.27     |     6.47     |    34.39    |
+| [Multi-Task TAD](#22107)|   CVPR-2021   |    57.8     |    37.6      |     9.6      |    35.0     |
+| [TCANet](#22109)        |   CVPR-2021   |    52.27    |    36.73     |     6.86     |    35.52    |
+| [CSA](#22110)           |   ICCV-2021   |    51.88    |    36.88     |     8.74     |    35.69    |   
+| [ContextLoc](#22111)    |   ICCV-2021   |    56.01    |    35.19     |     3.55     |    34.23    |
 
 |         Method         |  Conference   |   IoU=0.5   |   IoU=0.75   |   IoU=0.95   |   IoU=Avg   |
 | :--------------------: | :-----------: | :---------: | :----------: | :----------: | :---------: |
-| [C-TCN](#21901)         |     arXiv     |    47.6     |    31.9      |     6.2      |    31.1     |
-| [VSGN](#22011)          |     arXiv     |    52.4     |    36.0      |     8.4      |    35.1     |
-| [TSP](#22009)           |     arXiv     |    51.3     |    37.2      |     9.3      |    35.8     |
-| [BSP](#22008)           |     arXiv     |    50.1     |    34.7      |     7.9      |    34.0     |
-| [RTD-Net](#22102)       |     arXiv     |    46.4     |    30.4      |     8.6      |    30.5     |
+| [C-TCN](#21901)        |     arXiv     |    47.6     |    31.9      |     6.2      |    31.1     |
+| [VSGN](#22011)         |     arXiv     |    52.4     |    36.0      |     8.4      |    35.1     |
+| [TSP](#22009)          |     arXiv     |    51.3     |    37.2      |     9.3      |    35.8     |
+| [BSP](#22008)          |     arXiv     |    50.1     |    34.7      |     7.9      |    34.0     |
+| [RTD-Net](#22102)      |     arXiv     |    46.4     |    30.4      |     8.6      |    30.5     |
+| [TadTR](#22108)        |     arXiv     |    47.57    |    31.65     |     7.98     |    31.32    |
+| [AVFusion](#22112)     |   arXiv       |    52.73    |    37.78     |     9.39     |    36.63    |
 
 ---
 
