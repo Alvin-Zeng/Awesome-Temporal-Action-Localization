@@ -22,8 +22,8 @@ A curated list of temporal action localization/detection and related area (e.g. 
 ## <span id = "tal"> **Temporal Action Localization** </span>
 
 ## <span id = "tal-paper"> Papers </span>
-
 ### <span id = "tal-2021"> 2021 </span>
+- <span id = "22112">[[AVFusion]](#12106)</span> [**Hear Me Out: Fusional Approaches for AudioAugmented Temporal Action Localization**](https://arxiv.org/pdf/2106.14118v1.pdf) - Bagchi et al,`arXiv 2021`. [[code]](<https://github.com/skelemoa/tal-hmo/>)
 - <span id = "22111">[[ContextLoc]](#12111)</span> [**Enriching Local and Global Contexts for Temporal Action Localization**](https://arxiv.org/pdf/2107.12960.pdf) - Zixin Zhu et al, `ICCV 2021`.
 - <span id = "22110">[[CSA]](#12110)</span> [**Class Semantics-based Attention for Action Detection**](https://arxiv.org/pdf/2109.02613.pdf) - Deepak Sridhar et al, `ICCV 2021`.
 - <span id = "22109">[[TCANet]](#12109)</span> [**Temporal Context Aggregation Network for Temporal Action Proposal Refinement**](https://arxiv.org/pdf/2103.13141.pdf) - Zhiwu Qing et al, `CVPR 2021`.
@@ -138,6 +138,7 @@ A curated list of temporal action localization/detection and related area (e.g. 
 | <span id = "12101">[AGT](#22101)</span>         |     arXiv     |    72.1     |    69.8     |    65.0     |    58.1     |    50.2     |      -      |      -      |
 | <span id = "12102">[RTD-Net](#22102)</span>     |     arXiv     |      -      |      -      |    68.3     |    62.3     |    51.9     |    38.8     |    23.7     |
 | <span id = "12108">[TadTR](#22108)</span>       |     arXiv     |      -      |      -      |    59.6     |    55.0     |    46.6     |    35.7     |    24.3     |
+| <span id = "12112">[AVFusion](#22106)</span>    |   arXiv-2021  |      -      |      -      |    70.18    |    64.98    |    57.18    |     45.42   |     28.86   |
 
 #### <span id = "tal-result-activitynet13"> ActivityNet v1.3 </span>
 
@@ -166,7 +167,7 @@ A curated list of temporal action localization/detection and related area (e.g. 
 | [Multi-Task TAD](#22107)|   CVPR-2021   |    57.8     |    37.6      |     9.6      |    35.0     |
 | [TCANet](#22109)        |   CVPR-2021   |    52.27    |    36.73     |     6.86     |    35.52    |
 | [CSA](#22110)           |   ICCV-2021   |    51.88    |    36.88     |     8.74     |    35.69    |   
-| [ContextLoc](#22111)    |   ICCV-2021   |    56.01    |    35.19     |     3.55     |    34.23    | 
+| [ContextLoc](#22111)    |   ICCV-2021   |    56.01    |    35.19     |     3.55     |    34.23    |
 
 |         Method         |  Conference   |   IoU=0.5   |   IoU=0.75   |   IoU=0.95   |   IoU=Avg   |
 | :--------------------: | :-----------: | :---------: | :----------: | :----------: | :---------: |
@@ -176,6 +177,7 @@ A curated list of temporal action localization/detection and related area (e.g. 
 | [BSP](#22008)          |     arXiv     |    50.1     |    34.7      |     7.9      |    34.0     |
 | [RTD-Net](#22102)      |     arXiv     |    46.4     |    30.4      |     8.6      |    30.5     |
 | [TadTR](#22108)        |     arXiv     |    47.57    |    31.65     |     7.98     |    31.32    |
+| [AVFusion](#22112)     |   arXiv       |    52.73    |    37.78     |     9.39     |    36.63    |
 
 ---
 
