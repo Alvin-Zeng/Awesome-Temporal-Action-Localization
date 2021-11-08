@@ -186,7 +186,16 @@ A curated list of temporal action localization/detection and related area (e.g. 
 ## <span id = "wstal-paper"> Paper </span>
 
 ### <span id = "wstal-2021"> 2021 </span>
-- <span id = "42101">[[HAM-Net]](#32101)</span> [**A Hybrid Attention Mechanism for Weakly-Supervised Temporal Action Localization**](https://arxiv.org/pdf/2101.00545) - Ashraful Islam et al, `arxiv 2021`. [[code]](https://github.com/asrafulashiq/hamnet)
+- <span id = "42110">[[ACSNet]](#32110)</span> [**ACSNet: Action-Context Separation Network for Weakly Supervised Temporal Action Localization**](https://arxiv.org/pdf/2103.15088.pdf) - Ziyi Liu et al, `AAAI 2021`.
+- <span id = "42109">[[AMS]](#32109)</span> [**Adaptive Mutual Supervision for Weakly-Supervised Temporal Action Localization**](https://arxiv.org/pdf/2104.02357.pdf) - Chen Ju et al, `arXiv 2021`.
+- <span id = "42108">[[AUMN]](#32108)</span> [**Action Unit Memory Network for Weakly Supervised Temporal Action Localization**](https://dl.acm.org/doi/pdf/10.1145/3474085.3475261) - Wang Luo et al, `CVPR 2021`.
+- <span id = "42107">[[CSCL]](#32107)</span> [**Weakly-Supervised Temporal Action Localization via Cross-Stream Collaborative Learning**](https://dl.acm.org/doi/pdf/10.1145/3474085.3475261) - Yuan Ji et al, `ACM MM 2021`.
+- <span id = "42106">[[RefineLoc]](#32106)</span> [**RefineLoc: Iterative Refinement for Weakly-Supervised Action Localization**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9423165) - Alejandro Pardo et al, `WACV 2021`. [[code]](https://github.com/HumamAlwassel/RefineLoc)
+- <span id = "42105">[[UM-Net]](#32105)</span> [**Weakly-supervised Temporal Action Localization by Uncertainty Modeling**](https://ojs.aaai.org/index.php/AAAI/article/download/16280/16087) - Pilhyeon Lee et al, `AAAI 2021`.
+- <span id = "42104">[[CoLA]](#32104)</span> [**CoLA: Weakly-Supervised Temporal Action Localization with Snippet Contrastive Learning**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9578494&tag=1) - Can Zhang et al, `CVPR 2021`.
+- <span id = "42103">[[ActShufNet]](#32103)</span> [**Action Shuffling for Weakly Supervised Temporal Localization**](https://arxiv.org/pdf/2105.04208.pdf) - Xiao-Yu Zhang et al, `arXiv 2021`.
+- <span id = "42102">[[$\mathrm{CO_2-Net}$]](#32102)</span> [**Cross-modal Consensus Network for Weakly Supervised Temporal Action Localization**](https://dl.acm.org/doi/pdf/10.1145/3474085.3475298) - Fa-Ting Hong et al, `ACM MM 2021`.
+- <span id = "42101">[[HAM-Net]](#32101)</span> [**A Hybrid Attention Mechanism for Weakly-Supervised Temporal Action Localization**](https://arxiv.org/pdf/2101.00545) - Ashraful Islam et al, `AAAI 2021`. [[code]](https://github.com/asrafulashiq/hamnet)
 
 ### <span id = "wstal-2020"> 2020 </span>
 - <span id = "42013">[[ECM]](#32013)</span> [**Equivalent Classification Mapping for Weakly Supervised Temporal Action Localization**](https://arxiv.org/pdf/2008.07728.pdf) - Le Yang et al, `arxiv 2020`
@@ -244,6 +253,7 @@ A curated list of temporal action localization/detection and related area (e.g. 
 | <span id = "31803">[AutoLoc](#41803)</span>      |   ECCV-2018   |      -      |      -      |    35.8     |    29.0     |    21.2     |    13.4     |     5.8     |
 | <span id = "31804">[W-TAL](#41804)</span>        |   ECCV-2018   |    55.2     |    49.6     |    40.1     |    31.1     |    22.8     |      -      |     7.6     |
 | <span id = "31901">[STAR](#41901)</span>         |   AAAI-2019   |    68.8     |    60.0     |    48.7     |    34.7     |    23.0     |      -      |      -      |
+| <span id = "32106">[CMCS](#42106)</span>         |   WACV-2021   |      -      |      -      |    40.8     |    32.7     |    23.1     |    13.3     |     5.3     |
 | <span id = "31902">[CMCS](#41902)</span>         |   CVPR-2019   |    57.4     |    50.8     |    41.2     |    32.1     |    23.1     |    15.0     |     7.0     |
 | <span id = "31903">[CleanNet](#41903)</span>     |   ICCV-2019   |      -      |      -      |    37.0     |    30.9     |    23.9     |    13.9     |     7.1     |
 | <span id = "31904">[TSM](#41904)</span>          |   ICCV-2019   |      -      |      -      |    39.5     |      -      |    24.5     |      -      |     7.1     |
@@ -252,6 +262,7 @@ A curated list of temporal action localization/detection and related area (e.g. 
 | <span id = "31905">[BM](#41905)</span>           |   ICCV-2019   |    60.4     |    56.0     |    46.6     |    37.5     |    26.8     |    17.6     |     9.0     |
 | <span id = "32004">[BaSNet](#42004)</span>       |   AAAI-2020   |    58.2     |    52.3     |    44.6     |    36.0     |    27.0     |    18.6     |    10.4     |
 | <span id = "32005">[RPN](#42005)</span>          |   AAAI-2020   |    62.3     |    57.0     |    48.2     |    37.2     |    27.9     |    16.7     |     8.1     |
+| <span id = "32008">[TSCN](#42008)</span>         |   ECCV-2020   |    63.4     |    57.6     |    47.8     |    37.7     |    28.7     |    19.4     |    10.2     |
 | <span id = "32006">[DGAM](#42006)</span>         |   CVPR-2020   |    60.0     |    54.2     |    46.8     |    38.2     |    28.8     |    19.8     |    11.5     |
 | <span id = "32007">[ActionBytes](#42007)</span>  |   CVPR-2020   |      -      |      -      |    43.0     |    35.8     |    29.0     |      -      |     9.5     |
 | <span id = "32010">[SF-Net](#42010)</span>       |   ECCV-2020   |    71.0     |    63.4     |    53.2     |    40.7     |    29.3     |    18.4     |     9.6     |
@@ -259,11 +270,19 @@ A curated list of temporal action localization/detection and related area (e.g. 
 | <span id = "32009">[A2CL-PT](#42009)</span>      |   ECCV-2020   |    61.2     |    56.1     |    48.1     |    39.0     |    30.1     |    19.2     |    10.6     |
 | <span id = "32012">[TCA](#42012)</span>          |   CVPR-2020   |      -      |      -      |    46.9     |    38.9     |    30.1     |    19.8     |    10.4     |
 | <span id = "32011">[EM-MIL](#42011)</span>       |   ECCV-2020   |    59.1     |    52.7     |    45.5     |    36.8     |    30.5     |    22.7     |    16.4     |
+| <span id = "32101">[HAM-Net](#42101)</span>      |   AAAI-2021   |    65.4     |    59.0     |    50.3     |    41.1     |    31.0     |     20.7    |    11.2     |
+| <span id = "32104">[CoLA](#42104)</span>         |   CVPR-2021   |    66.2     |    59.5     |    51.5     |    41.9     |    32.2     |     22.0    |    13.1     |
+| <span id = "32110">[ACSNet](#42110)</span>       |   AAAI-2021   |      -      |      -      |    51.4     |    42.7     |    32.4     |     22.0    |    11.7     |
+| <span id = "32108">[AUMN](#42108)</span>         |   CVPR-2021   |    66.2     |    61.9     |    54.9     |    44.4     |    33.3     |     20.5    |     9.0     |
+| <span id = "32107">[CSCL](#42107)</span>         |   ACM MM-2021 |    68.0     |    61.8     |    52.7     |    43.3     |    33.4     |     21.8    |    12.3     |
+| <span id = "32105">[UM-Net](#42105)</span>       |   AAAI-2021   |    67.5     |    61.2     |    52.3     |    43.4     |    33.7     |     22.9    |    12.1     |
+| <span id = "32102">[$\mathrm{CO_2-Net}$](#42102)</span>       |   ACM MM-2021   |    70.1     |    63.6     |    54.5     |    45.7     |    38.3     |    26.4     |    13.4     |
 
 |                     Method                     |  Conference   |   IoU=0.1   |   IoU=0.2   |   IoU=0.3   |   IoU=0.4   |   IoU=0.5   |   IoU=0.6   |   IoU=0.7   |
 | :--------------------------------------------: | :-----------: | :---------: | :---------: | :---------: | :---------: | :---------: | :---------: | :---------: |
-| <span id = "32013">[ECM](#42013)</span>       |     arXiv     |    62.6     |    55.1     |    46.5     |    38.2     |    29.1     |     19.5    |      10.9     |
-| <span id = "32101">[HAM-Net](#42101)</span>       |     arXiv     |    65.4     |    59.0     |    50.3     |    41.1     |    31.0     |     20.7    |      11.2     |
+| <span id = "32013">[ECM](#42013)</span>          |     arXiv     |    62.6     |    55.1     |    46.5     |    38.2     |    29.1     |     19.5    |      10.9     |
+| <span id = "32103">[ActShufNet](#42103)</span>   |     arXiv     |    63.44    |    57.92    |    48.46    |    40.01    |    31.12    |     22.01   |      11.26    |
+| <span id = "32109">[AMS](#42109)</span>          |     arXiv     |    69.1     |    62.3     |    52.7     |    42.8     |    33.1     |     23.1    |      13.0     |
 
 #### <span id = "wstal-activitynet13"> ActivityNet v1.3 </span>
 
@@ -274,14 +293,18 @@ A curated list of temporal action localization/detection and related area (e.g. 
 | [TSM](#41904)          |   ICCV-2019   |    30.3     |     19.0     |     4.5      |      -      |
 | [STAR](#41901)         |   AAAI-2019   |    31.1     |     18.8     |     4.7      |      -      |
 | [CMCS](#41902)         |   CVPR-2019   |    34.0     |     20.9     |     5.7      |    21.2     |
+| [TSCN](#42008)         |   ECCV-2020   |    35.3     |    21.4     |     5.3      |    21.7     |
 | [BaSNet](#42004)       |   AAAI-2019   |    34.5     |     22.5     |     4.9      |    22.2     |
 | [MAAN](#41908)         |   ICLR-2019   |    33.7     |     21.9     |     5.5      |      -      |
 | [BM](#41905)           |   ICCV-2019   |    36.4     |     19.2     |     2.9      |      -      |
 | [A2CL-PT](#42009)      |   ECCV-2020   |    36.8     |     22.0     |     5.2      |    22.5     |
+| [AUMN](#42108)         |   CVPR-2021   |    38.3     |    23.5      |     5.2      |    23.5     |
+| [UM-Net](#42105)       |   AAAI-2021   |    37.0     |    23.9      |     5.7      |    23.7     |
 
 |        Method         |  Conference   |   IoU=0.5   |   IoU=0.75   |   IoU=0.95   |   IoU=Avg   |
 | :-------------------: | :-----------: | :---------: | :----------: | :----------: | :---------: |
 | [ECM](#42013)          |     arxiv     |    36.7     |    23.6     |     5.9      |    23.5     |
+| [ActShufNet](#42103)   |     arxiv     |    36.3     |    23.5     |     5.8      |    23.6     |
 
 #### <span id = "wstal-activitynet12"> ActivityNet v1.2 </span>
 
@@ -297,8 +320,22 @@ A curated list of temporal action localization/detection and related area (e.g. 
 | [CleanNet](#41903)     |   ICCV-2019   |    37.1     |     20.3     |     5.0      |    21.6     |
 | [3C-Net](#41906)       |   ICCV-2019   |    37.2     |      -       |      -       |      -      |
 | [CMCS](#41902)         |   CVPR-2019   |    36.8     |     22.0     |     5.6      |    22.4     |
+| [RefineLoc](#42106)    |   WACV-2021   |    38.7     |    22.6      |     5.5      |    23.2     |
 | [RPN](#42005)          |   AAAI-2020   |    37.6     |     23.9     |     5.4      |    23.3     |
+| [TSCN](#42008)         |   ECCV-2020   |    37.6     |    23.7      |     5.7      |    23.6     |
+| [ACSNet](#42110)       |   AAAI-2021   |    36.3     |    24.2      |     5.8      |    23.9     |
 | [BaSNet](#42004)       |   AAAI-2020   |    38.5     |     24.2     |     5.6      |    24.3     |
 | [ActionBytes](#42007)  |   CVPR-2020   |    39.4     |      -       |      -       |      -      |
-| [EM-MIL](#42011)      |   ECCV-2020   |    37.4     |      -       |      -       |      -      |
-| [TCA](#42012)          |   CVPR-2020   |    40.0     |    25.0     |     4.6      |    24.6     |
+| [EM-MIL](#42011)       |   ECCV-2020   |    37.4     |      -       |      -       |      -      |
+| [TCA](#42012)          |   CVPR-2020   |    40.0     |    25.0      |     4.6      |    24.6     |
+| [HAM-Net](#42101)      |   AAAI-2021   |    41.0     |    24.8      |     5.3      |    25.1     |
+| [AUMN](#42108)         |   CVPR-2021   |    42.0     |    25.0      |     5.6      |    25.5     |
+| [UM-Net](#42105)       |   AAAI-2021   |    41.2     |    25.6      |     6.0      |    25.9     |
+| [CoLA](#42104)         |   CVPR-2021   |    42.7     |    25.7      |     5.8      |    26.1     |
+| [$\mathrm{CO_2-Net}$](#42102)          |   ACM MM-2021   |    43.3     |    26.3     |     5.2      |    26.4     |
+| [CSCL](#42107)         |   ACM MM-2021 |    43.8     |    26.9      |     5.6      |    26.9     |
+
+|        Method         |  Conference   |   IoU=0.5   |   IoU=0.75   |   IoU=0.95   |   IoU=Avg   |
+| :-------------------: | :-----------: | :---------: | :----------: | :----------: | :---------: |
+| [AMS](#42109)          |     arxiv     |    40.7     |    23.7      |     5.8      |    24.6     |
+| [ActShufNet](#42103)   |     arxiv     |    41.2     |    24.9      |     5.9      |    25.0     |
