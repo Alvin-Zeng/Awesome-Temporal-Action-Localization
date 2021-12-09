@@ -23,7 +23,8 @@ A curated list of temporal action localization/detection and related area (e.g. 
 
 ## <span id = "tal-paper"> Papers </span>
 ### <span id = "tal-2021"> 2021 </span>
-- <span id = "22112">[[AVFusion]](#12106)</span> [**Hear Me Out: Fusional Approaches for AudioAugmented Temporal Action Localization**](https://arxiv.org/pdf/2106.14118v1.pdf) - Bagchi et al,`arXiv 2021`. [[code]](<https://github.com/skelemoa/tal-hmo/>)
+- <span id = "22113">[[GCM]](#12113)</span> [**Graph Convolutional Module for Temporal Action Localization in Videos**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9459486) - Runhao Zeng et al, `TPAMI 2021`. [[code]](https://github.com/Alvin-Zeng/GCM)
+- <span id = "22112">[[AVFusion]](#12106)</span> [**Hear Me Out: Fusional Approaches for AudioAugmented Temporal Action Localization**](https://arxiv.org/pdf/2106.14118v1.pdf) - Bagchi et al, `arXiv 2021`. [[code]](<https://github.com/skelemoa/tal-hmo/>)
 - <span id = "22111">[[ContextLoc]](#12111)</span> [**Enriching Local and Global Contexts for Temporal Action Localization**](https://arxiv.org/pdf/2107.12960.pdf) - Zixin Zhu et al, `ICCV 2021`.
 - <span id = "22110">[[CSA]](#12110)</span> [**Class Semantics-based Attention for Action Detection**](https://arxiv.org/pdf/2109.02613.pdf) - Deepak Sridhar et al, `ICCV 2021`.
 - <span id = "22109">[[TCANet]](#12109)</span> [**Temporal Context Aggregation Network for Temporal Action Proposal Refinement**](https://arxiv.org/pdf/2103.13141.pdf) - Zhiwu Qing et al, `CVPR 2021`.
@@ -127,6 +128,7 @@ A curated list of temporal action localization/detection and related area (e.g. 
 | <span id = "12107">[Multi-Task TAD](#22107)</span>|   CVPR-2021   |      -      |      -      |    63.2     |    58.5     |    54.8     |     44.3    |     32.4    |
 | <span id = "12105">[AFSD](#22105)</span>          |   CVPR-2021   |      -      |      -      |    67.3     |    62.4     |    55.5     |     43.7    |     31.1    |
 | <span id = "12104">[MUSES](#22104)</span>         |   CVPR-2021   |      -      |      -      |    68.9     |    64.0     |    56.9     |     46.3    |     31.0    |
+| <span id = "12113">[GCM](#22113)</span>           |  TPAMI-2021   |    72.5     |    70.9     |    66.5     |    60.8     |    51.9     |      -      |      -      |
 
 |                     Method                      |  Conference   |   IoU=0.1   |   IoU=0.2   |   IoU=0.3   |   IoU=0.4   |   IoU=0.5   |   IoU=0.6   |   IoU=0.7   |
 | :---------------------------------------------: | :-----------: | :---------: | :---------: | :---------: | :---------: | :---------: | :---------: | :---------: |
