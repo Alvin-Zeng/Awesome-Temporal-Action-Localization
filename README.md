@@ -19,6 +19,10 @@ A curated list of temporal action localization/detection and related area (e.g. 
 
 ---
 
+Contributors: 
+SCUT: Runhao Zeng, Zeng You, Xinyu Sun
+NPU: Le Yang
+
 ## <span id = "tal"> **Temporal Action Localization** </span>
 
 ## <span id = "tal-paper"> Papers </span>
