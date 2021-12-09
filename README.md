@@ -194,6 +194,7 @@ NPU: Le Yang
 ## <span id = "wstal-paper"> Paper </span>
 
 ### <span id = "wstal-2021"> 2021 </span>
+- <span id = "42111">[[BackTAL]](#42111)</span> [**Background-Click Supervision for Temporal Action Localization**](https://arxiv.org/pdf/2111.12449.pdf) - Le Yang et al, `TPAMI 2021`.
 - <span id = "42110">[[ACSNet]](#32110)</span> [**ACSNet: Action-Context Separation Network for Weakly Supervised Temporal Action Localization**](https://arxiv.org/pdf/2103.15088.pdf) - Ziyi Liu et al, `AAAI 2021`.
 - <span id = "42109">[[AMS]](#32109)</span> [**Adaptive Mutual Supervision for Weakly-Supervised Temporal Action Localization**](https://arxiv.org/pdf/2104.02357.pdf) - Chen Ju et al, `arXiv 2021`.
 - <span id = "42108">[[AUMN]](#32108)</span> [**Action Unit Memory Network for Weakly Supervised Temporal Action Localization**](https://dl.acm.org/doi/pdf/10.1145/3474085.3475261) - Wang Luo et al, `CVPR 2021`.
@@ -206,7 +207,7 @@ NPU: Le Yang
 - <span id = "42101">[[HAM-Net]](#32101)</span> [**A Hybrid Attention Mechanism for Weakly-Supervised Temporal Action Localization**](https://arxiv.org/pdf/2101.00545) - Ashraful Islam et al, `AAAI 2021`. [[code]](https://github.com/asrafulashiq/hamnet)
 
 ### <span id = "wstal-2020"> 2020 </span>
-- <span id = "42013">[[ECM]](#32013)</span> [**Equivalent Classification Mapping for Weakly Supervised Temporal Action Localization**](https://arxiv.org/pdf/2008.07728.pdf) - Le Yang et al, `arxiv 2020`
+- <span id = "42013">[[ECM]](#32013)</span> [**Equivalent Classification Mapping for Weakly Supervised Temporal Action Localization**](https://arxiv.org/pdf/2008.07728.pdf) - Tao Zhao et al, `arxiv 2020`
 - <span id = "42012">[[TCA]](#32012)</span> [**Learning Temporal Co-Attention Models for Unsupervised Video Action Localization**](https://openaccess.thecvf.com/content_CVPR_2020/html/Gong_Learning_Temporal_Co-Attention_Models_for_Unsupervised_Video_Action_Localization_CVPR_2020_paper.html) - Guoqiang Gong et al, `CVPR 2020`
 - <span id = "42011">[[EM-MIL]](#32011)</span> [**Weakly-Supervised Action Localization with Expectation-Maximization Multi-Instance**](https://arxiv.org/abs/2004.00163) - Zhekun Luo et al, `ECCV 2020`.
 - <span id = "42010">[[SF-Net]](#32010)</span> [**SF-Net: Single-Frame Supervision for Temporal Action Localization**](https://arxiv.org/abs/2003.06845) - Fan Ma et al, `ECCV 2020`. [[code]](<https://github.com/Flowerfan/SF-Net>)
@@ -284,6 +285,7 @@ NPU: Le Yang
 | <span id = "32108">[AUMN](#42108)</span>         |   CVPR-2021   |    66.2     |    61.9     |    54.9     |    44.4     |    33.3     |     20.5    |     9.0     |
 | <span id = "32107">[CSCL](#42107)</span>         |   ACM MM-2021 |    68.0     |    61.8     |    52.7     |    43.3     |    33.4     |     21.8    |    12.3     |
 | <span id = "32105">[UM-Net](#42105)</span>       |   AAAI-2021   |    67.5     |    61.2     |    52.3     |    43.4     |    33.7     |     22.9    |    12.1     |
+| <span id = "32111">[BackTAL](#42111)</span>      |   TPAMI-2021  |     -       |      -      |    54.4     |    45.5     |    36.3     |    	26.2   |    14.8     |
 | <span id = "32102">[$\mathrm{CO_2-Net}$](#42102)</span>       |   ACM MM-2021   |    70.1     |    63.6     |    54.5     |    45.7     |    38.3     |    26.4     |    13.4     |
 
 |                     Method                     |  Conference   |   IoU=0.1   |   IoU=0.2   |   IoU=0.3   |   IoU=0.4   |   IoU=0.5   |   IoU=0.6   |   IoU=0.7   |
@@ -342,6 +344,7 @@ NPU: Le Yang
 | [CoLA](#42104)         |   CVPR-2021   |    42.7     |    25.7      |     5.8      |    26.1     |
 | [$\mathrm{CO_2-Net}$](#42102)          |   ACM MM-2021   |    43.3     |    26.3     |     5.2      |    26.4     |
 | [CSCL](#42107)         |   ACM MM-2021 |    43.8     |    26.9      |     5.6      |    26.9     |
+| [BackTAL](#42111)      |   TPAMI-2021  |    41.5     |    27.3      |     4.7      |    27.0     |
 
 |        Method         |  Conference   |   IoU=0.5   |   IoU=0.75   |   IoU=0.95   |   IoU=Avg   |
 | :-------------------: | :-----------: | :---------: | :----------: | :----------: | :---------: |
