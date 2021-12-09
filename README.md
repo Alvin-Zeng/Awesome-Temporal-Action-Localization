@@ -194,7 +194,7 @@ NPU: Le Yang
 ## <span id = "wstal-paper"> Paper </span>
 
 ### <span id = "wstal-2021"> 2021 </span>
-- <span id = "42111">[[BackTAL]](#42111)</span> [**Background-Click Supervision for Temporal Action Localization**](https://arxiv.org/pdf/2111.12449.pdf) - Le Yang et al, `TPAMI 2021`.
+- <span id = "42111">[[BackTAL]](#42111)</span> [**Background-Click Supervision for Temporal Action Localization**](https://arxiv.org/pdf/2111.12449.pdf) - Le Yang et al, `TPAMI 2021`. [[code]](https://github.com/VividLe/BackTAL)
 - <span id = "42110">[[ACSNet]](#32110)</span> [**ACSNet: Action-Context Separation Network for Weakly Supervised Temporal Action Localization**](https://arxiv.org/pdf/2103.15088.pdf) - Ziyi Liu et al, `AAAI 2021`.
 - <span id = "42109">[[AMS]](#32109)</span> [**Adaptive Mutual Supervision for Weakly-Supervised Temporal Action Localization**](https://arxiv.org/pdf/2104.02357.pdf) - Chen Ju et al, `arXiv 2021`.
 - <span id = "42108">[[AUMN]](#32108)</span> [**Action Unit Memory Network for Weakly Supervised Temporal Action Localization**](https://dl.acm.org/doi/pdf/10.1145/3474085.3475261) - Wang Luo et al, `CVPR 2021`.
