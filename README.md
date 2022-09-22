@@ -28,10 +28,11 @@ NPU: Le Yang
 ## <span id = "tal-paper"> Papers </span>
 
 ### <span id = "tal-2022"> 2022 </span>
-- <span id = "22204">[[TALLFormer]](#12204)</span> [**TALLFormer: Temporal Action Localization with Long-memory Transformer**](http://arxiv.org/abs/2204.01680) - Feng Cheng et al, `arXiv 2022`.[[code]](https://github.com/klauscc/TALLFormer)
-- <span id = "22203">[[ActionFormer]](#12203)</span> [**ActionFormer: Localizing Moments of Actions with Transformers**](http://arxiv.org/abs/2202.07925) - Chenlin Zhang et al, `arXiv 2022`.
+- <span id = "22204">[[TALLFormer]](#12204)</span> [**TALLFormer: Temporal Action Localization with Long-memory Transformer**](http://arxiv.org/abs/2204.01680) - Feng Cheng et al, `ECCV 2022`.[[code]](https://github.com/klauscc/TALLFormer)
+- <span id = "22203">[[ActionFormer]](#12203)</span> [**ActionFormer: Localizing Moments of Actions with Transformers**](http://arxiv.org/abs/2202.07925) - Chenlin Zhang et al, `ECCV 2022`. [[code]](https://github.com/happyharrycn/actionformer_release)
 - <span id = "22202">[[RCL]](#12202)</span> [**RCL: Recurrent Continuous Localization for Temporal Action Detection**](http://arxiv.org/abs/2103.03027) - Qiang Wang et al, `CVPR 2022`.
 - <span id = "22201">[[DCAN]](#12201)</span> [**DCAN: Improving Temporal Action Detection via Dual Context Aggregation**](https://www.aaai.org/AAAI22Papers/AAAI-7134.ChenG.pdf.pdf) - Guo Chen et al, `AAAI 2022`.
+- <span id = "22108">[[TadTR]](#12108)</span> [**End-to-end Temporal Action Detection with Transformer**](https://arxiv.org/pdf/2106.10271.pdf) - Xiaolong Liu et al, `TIP 2022`. [[code]](<https://github.com/xlliu7/TadTR>)
 
 
 ### <span id = "tal-2021"> 2021 </span>
@@ -44,7 +45,6 @@ NPU: Le Yang
 - <span id = "22111">[[ContextLoc]](#12111)</span> [**Enriching Local and Global Contexts for Temporal Action Localization**](https://arxiv.org/pdf/2107.12960.pdf) - Zixin Zhu et al, `ICCV 2021`.
 - <span id = "22110">[[CSA]](#12110)</span> [**Class Semantics-based Attention for Action Detection**](https://arxiv.org/pdf/2109.02613.pdf) - Deepak Sridhar et al, `ICCV 2021`.
 - <span id = "22109">[[TCANet]](#12109)</span> [**Temporal Context Aggregation Network for Temporal Action Proposal Refinement**](https://arxiv.org/pdf/2103.13141.pdf) - Zhiwu Qing et al, `CVPR 2021`.
-- <span id = "22108">[[TadTR]](#12108)</span> [**End-to-end Temporal Action Detection with Transformer**](https://arxiv.org/pdf/2106.10271.pdf) - Xiaolong Liu et al, `arxiv 2021`. [[code]](<https://github.com/xlliu7/TadTR>)
 - <span id = "22107">[[Multi-Task TAD]](#12107)</span> [**Three Birds with One Stone: Multi-Task Temporal Action Detection via Recycling Temporal Annotations**](http://arxiv.org/abs/2103.01302) - Zhihui Li et al, `CVPR 2021`.
 - <span id = "22106">[[Coarse-Fine Networks]](#12106)</span> [**Coarse-Fine Networks for Temporal Activity Detection in Videos**](https://openaccess.thecvf.com/content/CVPR2021/papers/Li_Three_Birds_with_One_Stone_Multi-Task_Temporal_Action_Detection_via_CVPR_2021_paper.pdf) - Kahatapitiya et al, `CVPR 2021`.
 - <span id = "22105">[[AFSD]](#12105)</span> [**Learning Salient Boundary Feature for Anchor-free Temporal Action Localization**](https://arxiv.org/abs/2103.13137) - Chuming Lin et al, `CVPR 2021`. [[code]](<https://github.com/TencentYoutuResearch/ActionDetection-AFSD>)
@@ -54,7 +54,7 @@ NPU: Le Yang
 - <span id = "22101">[[AGT]](#12101)</span> [**Activity Graph Transformer for Temporal Action Localization**](https://arxiv.org/pdf/2101.08540.pdf) - Megha Nawhal et al, `arxiv 2021`
 
 ### <span id = "tal-2020"> 2020 </span>
-- <span id = "22011">[[VSGN]](#12011)</span> [**Video Self-Stitching Graph Network for Temporal Action Localization**](https://arxiv.org/pdf/2011.14598.pdf) - Chen Zhao et al, `arxiv 2020`
+- <span id = "22011">[[VSGN]](#12011)</span> [**Video Self-Stitching Graph Network for Temporal Action Localization**](https://arxiv.org/pdf/2011.14598.pdf) - Chen Zhao et al, `ICCV 2021`
 - <span id = "22010">[[UFA]](#12010)</span> [**Temporal Action Detection with Multi-level Supervision**](https://arxiv.org/pdf/2011.11893.pdf) - Baifeng Shi et al, `arxiv 2020`
 - <span id = "22009">[[TSP]](#12009)</span> [**TSP: Temporally-Sensitive Pretraining of Video Encoders for Localization Tasks**](https://arxiv.org/pdf/2011.11479) - Humam Alwassel et al, `arxiv 2020`
 - <span id = "22008">[[BSP]](#12008)</span> [**Boundary-sensitive Pre-training for Temporal Localization in Videos**](https://arxiv.org/pdf/2011.10830.pdf) - Mengmeng Xu et al, `arxiv 2020`
@@ -143,28 +143,28 @@ NPU: Le Yang
 | <span id = "12002">[PBRNet](#22002)</span>        |   AAAI-2020   |      -      |      -      |    58.5     |    54.6     |    51.3     |    41.8     |     29.5    |
 | <span id = "12003">[G-TAD](#22003)</span>         |   CVPR-2020   |      -      |      -      |    66.4     |    60.4     |    51.6     |    37.6     |     22.9    |
 | <span id = "12113">[GCM](#22113)</span>           |  TPAMI-2021   |    72.5     |    70.9     |    66.5     |    60.8     |    51.9     |      -      |      -      |
+| <span id = "12011">[VSGN](#22011)</span>          |   ICCV-2021   |      -      |      -      |    66.7     |    60.4     |    52.4     |     41.0    |     30.4    |
 | <span id = "12202">[RCL](#22202)</span>           |   CVPR-2022   |      -      |      -      |    70.1     |    62.3     |    52.9     |     42.7    |     30.7    |
 | <span id = "12201">[DCAN](#22201)</span>          |   AAAI-2022   |      -      |      -      |    68.2     |    62.7     |    54.1     |     43.9    |     32.6    |
 | <span id = "12111">[ContextLoc](#22110)</span>    |   ICCV-2021   |      -      |      -      |    68.3     |    63.8     |    54.3     |     41.8    |     26.2    |
 | <span id = "12107">[Multi-Task TAD](#22107)</span>|   CVPR-2021   |      -      |      -      |    63.2     |    58.5     |    54.8     |     44.3    |     32.4    |
 | <span id = "12105">[AFSD](#22105)</span>          |   CVPR-2021   |      -      |      -      |    67.3     |    62.4     |    55.5     |     43.7    |     31.1    |
 | <span id = "12104">[MUSES](#22104)</span>         |   CVPR-2021   |      -      |      -      |    68.9     |    64.0     |    56.9     |     46.3    |     31.0    |
+| <span id = "12204">[TALLFormer](#22204)</span>    |   ECCV-2022   |      -      |      -      |    68.4     |      -      |    57.6     |      -      |     30.8    |
+| <span id = "12108">[TadTR](#22108)</span>         |   TIP-2022    |      -      |      -      |    74.8     |    69.1     |    60.1     |     46.6    |     32.8    |
+| <span id = "12203">[ActionFormer](#22203)</span>  |   ECCV-2022   |      -      |      -      |    82.1     |    77.8     |    71.0     |     59.4    |     43.9    |
 
 
 |                     Method                      |  Conference   |   IoU=0.1   |   IoU=0.2   |   IoU=0.3   |   IoU=0.4   |   IoU=0.5   |   IoU=0.6   |   IoU=0.7   |
 | :---------------------------------------------: | :-----------: | :---------: | :---------: | :---------: | :---------: | :---------: | :---------: | :---------: |
 | <span id = "12010">[UFA](#22010)</span>         |     arXiv     |      -      |      -      |    45.6     |    36.4     |    26.2     |    15.5     |    7.1      |
 | <span id = "12007">[VAN](#22008)</span>         |     arXiv     |      -      |      -      |    55.0     |    48.6     |    39.2     |    26.9     |    15.0     |
-| <span id = "12108">[TadTR](#22108)</span>       |     arXiv     |      -      |      -      |    59.6     |    55.0     |    46.6     |    35.7     |    24.3     |
 | <span id = "12115">[ATAG](#22115)</span>        |     arXiv     |      -      |      -      |    62.0     |    53.1     |    47.3     |    38.0     |    28.0     |
 | <span id = "12101">[AGT](#22101)</span>         |     arXiv     |    72.1     |    69.8     |    65.0     |    58.1     |    50.2     |      -      |      -      |
 | <span id = "12102">[RTD-Net](#22102)</span>     |     arXiv     |      -      |      -      |    68.3     |    62.3     |    51.9     |    38.8     |    23.7     |
 | <span id = "11901">[C-TCN](#21901)</span>       |     arXiv     |    72.2     |    71.4     |    68.0     |    62.3     |    52.1     |      -      |      -      |
-| <span id = "12011">[VSGN](#22011)</span>        |     arXiv     |      -      |      -      |    66.7     |    60.4     |    52.4     |    41.0     |    30.4     |
 | <span id = "12009">[TSP](#22009)</span>         |     arXiv     |      -      |      -      |    69.1     |    63.3     |    53.5     |    40.4     |    26.0     |
 | <span id = "12112">[AVFusion](#22106)</span>    |     arXiv     |      -      |      -      |    70.2     |    65.0     |    57.2     |    45.4     |    28.9     |
-| <span id = "12204">[TALLFormer](#22204)</span>  |     arXiv     |      -      |      -      |    76.0     |      -      |    63.2     |    56.6     |    34.5     |
-| <span id = "12203">[ActionFormer](#22203)</span>|     arXiv     |      -      |      -      |    75.5     |    72.5     |    65.6     |    56.6     |    42.7     |
 
 #### <span id = "tal-result-activitynet13"> ActivityNet v1.3 </span>
 
