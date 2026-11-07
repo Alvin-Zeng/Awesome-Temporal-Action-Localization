@@ -6,7 +6,7 @@ A curated list of temporal action localization/detection and related area (e.g. 
 ## Contents
 - [Temporal Action Localization](#tal)
     - [Paper](#tal-paper)
-        - [2021](#tal-2021) - [2020](#tal-2020) - [2019](#tal-2019) - [2018](#tal-2018) - [2017](#tal-2017) - [2016](#tal-2016)
+        - [2024](#tal-2024) - [2021](#tal-2021) - [2020](#tal-2020) - [2019](#tal-2019) - [2018](#tal-2018) - [2017](#tal-2017) - [2016](#tal-2016)
     - [Dataset](#tal-data)
     - [Benchmark Results](#tal-result)
         - [THUMOS14](#tal-result-thumos14) - [ActivityNet v1.3](#tal-result-activitynet13)
@@ -26,6 +26,9 @@ NPU: Le Yang
 ## <span id = "tal"> **Temporal Action Localization** </span>
 
 ## <span id = "tal-paper"> Papers </span>
+
+### <span id = "tal-2024"> 2024 </span>
+- [**Dual DETRs for Multi-Label Temporal Action Detection**](https://openaccess.thecvf.com/content/CVPR2024/html/Zhu_Dual_DETRs_for_Multi-Label_Temporal_Action_Detection_CVPR_2024_paper.html) - Yuhan Zhu et al, `CVPR 2024`.
 
 ### <span id = "tal-2022"> 2022 </span>
 - <span id = "22204">[[TALLFormer]](#12204)</span> [**TALLFormer: Temporal Action Localization with Long-memory Transformer**](http://arxiv.org/abs/2204.01680) - Feng Cheng et al, `ECCV 2022`.[[code]](https://github.com/klauscc/TALLFormer)
